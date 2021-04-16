@@ -1,0 +1,21 @@
+.dog{
+	background: red;
+}
+.card img {
+	/*height: 300px;*/
+}
+
+.card{
+	border: none;
+	box-shadow: "0 0.5rem 1rem rgb(0 0 0 / 15%)";
+	width: 500px;
+}
+h5{
+	color: #000;
+	font-size: 24px;
+	text-align: center;
+    background: #c6c6c6;
+}
+.mob{
+	display: none;
+}

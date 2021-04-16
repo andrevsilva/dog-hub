@@ -22,7 +22,7 @@ export default function Cart() {
 				) : (
 					<React.Fragment>
 						{adoption.map(item =>
-						<div key={item.id} className="col-sm-3 mt-3" style={{padding: 0 , marginRight: 15 , maxWidth: 500}}>
+						<div key={item.id} className="col-sm-3 mt-3" id="card">
 							<div className="card text-white bg-light mb-3" style={{marginBottom: 0 , height: 100}}>
 								<div className="card-body" style={{color: "#000"}}>
 									<img src={item.image} alt={item.name} style={{width: "100px"}} />
